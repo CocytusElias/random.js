@@ -1,0 +1,19 @@
+{
+  "name": "comsvr-random",
+  "version": "0.1.0",
+  "description": "Can randomly generate a specified type of string, support a variety of length, character composition types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliassama/comsvr-random.git"
+  },
+  "author": "\"eliassama <elias@elias.ink> (https://github.com/eliassama)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliassama/comsvr-random/issues"
+  },
+  "homepage": "https://github.com/eliassama/comsvr-random#readme"
+}
