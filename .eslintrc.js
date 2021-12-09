@@ -1,7 +1,10 @@
 module.exports = {
   root: true,
+  env: {
+    'jest/globals': true,
+  },
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'jest'],
   extends: ['eliassama'],
   overrides: [
     {
@@ -16,4 +19,11 @@ module.exports = {
       },
     },
   ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
 };

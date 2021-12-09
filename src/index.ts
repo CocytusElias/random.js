@@ -197,6 +197,7 @@ export function generateRandomStr(
   if (mix) {
     mixChartScope = mixChartScope.concat(MixScope);
   }
+
   source = source.filter(function (chart) {
     return mixChartScope.indexOf(chart) === -1;
   });
