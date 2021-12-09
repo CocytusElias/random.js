@@ -1,8 +1,9 @@
 {
   "name": "comsvr-random",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Can randomly generate a specified type of string, support a variety of length, character composition types",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
