@@ -1,5 +1,6 @@
 # random
 ![standard-readme compliant](https://img.shields.io/badge/typescript-v4.5.2-green.svg?style=flat-square)
+
 Can randomly generate a specified type of string, support a variety of length, character composition types
 
 ## Table of Contents
