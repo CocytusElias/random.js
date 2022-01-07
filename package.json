@@ -1,6 +1,6 @@
 {
   "name": "comsvr-random",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Can randomly generate a specified type of string, support a variety of length, character composition types",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
