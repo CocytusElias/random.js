@@ -1,6 +1,5 @@
 # random
-[![standard-readme compliant](https://img.shields.io/badge/comsvr--random-v0.1.0-green.svg?style=flat-square)](https://github.com/eliassama/comsvr-random)
-
+![standard-readme compliant](https://img.shields.io/badge/typescript-v4.5.2-green.svg?style=flat-square)
 Can randomly generate a specified type of string, support a variety of length, character composition types
 
 ## Table of Contents
@@ -75,7 +74,7 @@ generateRandomStr(type, length, options = {mix, customScope, mixCustomScope})
 
 ### Javascript
 ```javascript
-const {generateRandomStr, RandomType} = require("./random.js");
+const {generateRandomStr, RandomType} = require("comsvr-random");
 console.log(generateRandomStr(RandomType.IntRandom, 10)) // 3652887682
 console.log(generateRandomStr(RandomType.LowerRandom, 10)) // aghdcdoiuy
 console.log(generateRandomStr(RandomType.UpperRandom, 10, {mix:true})) // AXHDCDTHFY
@@ -85,7 +84,7 @@ console.log(generateRandomStr(RandomType.UpperRandom, 10, {mix:true, customScope
 
 ### Typescript
 ```typescript
-import {generateRandomStr, RandomType} from "../src/random/random";
+import {generateRandomStr, RandomType} from "comsvr-random";
 console.log(generateRandomStr(RandomType.IntRandom, 10)) // 3652887682
 console.log(generateRandomStr(RandomType.LowerRandom, 10)) // aghdcdoiuy
 console.log(generateRandomStr(RandomType.UpperRandom, 10, {mix:true})) // AXHDCDTHFY
