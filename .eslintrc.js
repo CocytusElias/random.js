@@ -3,7 +3,6 @@ module.exports = {
   env: {
     'jest/globals': true,
   },
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'jest'],
+  plugins: ['jest'],
   extends: ['eliassama/typescript'],
 };
